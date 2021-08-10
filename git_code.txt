@@ -1,0 +1,57 @@
+# initialise git in bash
+git init --b main
+
+# main is the name 
+# change dir to new repository
+# add the files in new repository, which stages them for first commit
+git add .
+
+# to unstage a file, use 'git reset HEAD YOUR-FILE'
+
+# commit files in local repository
+git commit -m "TEST COMMIT"
+
+# commits tracked changes and prepares to be pushed to remote repository 
+# to remove commit and modify the file, use 'git reset --soft HEAD~1' and commit and add again after
+
+# add remote repository
+git remote add origin https://github.com/Andris888/bash_script.git/
+
+# set the new remote
+git remote -y
+
+# verifies the new remote URL
+
+# push changes in local repository
+git push origin main
+
+# or if doesn't work use 'git show-ref' to see what you've got, could be master instead of main
+git push origin master
+
+# initialise git in bash
+git init --b main
+
+# main is the name
+# change dir to new repository
+# add the files in new repository, which stages them for first commit
+git add .
+
+# to unstage a file, use 'git reset HEAD YOUR-FILE'
+# commit files in local repository
+git commit -m "TEST COMMIT"
+
+# commits tracked changes and prepares to be pushed to remote repository
+# to remove commit and modify the file, use 'git reset --soft HEAD~1' and commit and add again after
+
+# add remote repository
+git remote add origin https://github.com/Andris888/bash_script.git/
+
+# set the new remote
+git remote -y
+
+# verifies the new remote URL
+# push changes in local repository
+git push origin main
+
+# or if doesn't work use 'git show-ref' to see what you've got, could be master instead of main
+git push origin master
